@@ -34,20 +34,20 @@
 
 - (IBAction)getTokenTouched:(id)sender {
 	[self checkHpaInit];
-//    HpsTokenService *service = [[HpsTokenService alloc] initWithPublicKey:@"pkapi_cert_P6dRqs1LzfWJ6HgGVZ"];
-//    tokenResponse = nil;
-//    [service getTokenWithCardNumber:@"4242424242424242"
-//                                cvc:@"023"
-//                           expMonth:@"3"
-//                            expYear:@"2017"
-//                   andResponseBlock:^(HpsTokenData *response) {
-//                       
-//                       //saved for the charge.  Normally the token value is sent back to your server and you run a charge on it from the server to the gateway.
-//                       //The server would securely store your secret api keys to use on the charge.
-//                       tokenResponse = response;
-//                       self.tokenResultText.text = [NSString stringWithFormat:@"Token: %@", response.tokenValue];
-//                       
-//                   }];
+    HpsTokenService *service = [[HpsTokenService alloc] initWithPublicKey:@"pkapi_cert_P6dRqs1LzfWJ6HgGVZ"];
+    tokenResponse = nil;
+    [service getTokenWithCardNumber:@"4242424242424242"
+                                cvc:@"023"
+                           expMonth:@"3"
+                            expYear:@"2017"
+                   andResponseBlock:^(HpsTokenData *response) {
+                       
+                       //saved for the charge.  Normally the token value is sent back to your server and you run a charge on it from the server to the gateway.
+                       //The server would securely store your secret api keys to use on the charge.
+                       tokenResponse = response;
+                       self.tokenResultText.text = [NSString stringWithFormat:@"Token: %@", response.tokenValue];
+                       
+                   }];
 
 }
 - (HpsHpaDevice*) setupDevice

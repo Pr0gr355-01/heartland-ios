@@ -31,6 +31,9 @@
 		84FFB2CC1D63537400D56BF9 /* Hps_Pax_Credit_Tests.m in Sources */ = {isa = PBXBuildFile; fileRef = 84FFB2CB1D63537400D56BF9 /* Hps_Pax_Credit_Tests.m */; };
 		8706DB3B29562C8A195DB4FD /* Pods_Heartland_iOS_SDK_Example.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 2D472C6C84F02E1033D8F882 /* Pods_Heartland_iOS_SDK_Example.framework */; };
 		873B8AEB1B1F5CCA007FD442 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 873B8AEA1B1F5CCA007FD442 /* Main.storyboard */; };
+		C5AC4DBB28638422003D0C6D /* HpsDetailsViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = C5AC4DBA28638422003D0C6D /* HpsDetailsViewController.m */; };
+		C5AC4DBE2863843A003D0C6D /* HpsConnectDeviceViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = C5AC4DBD2863843A003D0C6D /* HpsConnectDeviceViewController.m */; };
+		C5AC4DC1286387E1003D0C6D /* HpsMainNavigationViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = C5AC4DC0286387E0003D0C6D /* HpsMainNavigationViewController.m */; };
 		D50E0E0B693E4B509A8E491C /* Pods_Heartland_iOS_SDK_Tests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 90EC82F001209D3ECA5AEE8C /* Pods_Heartland_iOS_SDK_Tests.framework */; };
 		DB30662B2188794A00F6E101 /* Hps_Hpa_Report_Test.m in Sources */ = {isa = PBXBuildFile; fileRef = DB30662A2188794A00F6E101 /* Hps_Hpa_Report_Test.m */; };
 		DB3DC11C2004F7EA0037521A /* Hps_Hpa_VRF_Test.m in Sources */ = {isa = PBXBuildFile; fileRef = DB3DC11B2004F7EA0037521A /* Hps_Hpa_VRF_Test.m */; };
@@ -97,6 +100,12 @@
 		90EC82F001209D3ECA5AEE8C /* Pods_Heartland_iOS_SDK_Tests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_Heartland_iOS_SDK_Tests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		93A863AAB90A2F8CE2547765 /* Pods-Heartland-iOS-SDK_Example.pax_testing.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Heartland-iOS-SDK_Example.pax_testing.xcconfig"; path = "Pods/Target Support Files/Pods-Heartland-iOS-SDK_Example/Pods-Heartland-iOS-SDK_Example.pax_testing.xcconfig"; sourceTree = "<group>"; };
 		B3271F7E0C265B59AE8894E1 /* README.md */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = net.daringfireball.markdown; name = README.md; path = ../README.md; sourceTree = "<group>"; };
+		C5AC4DB928638422003D0C6D /* HpsDetailsViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = HpsDetailsViewController.h; sourceTree = "<group>"; };
+		C5AC4DBA28638422003D0C6D /* HpsDetailsViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = HpsDetailsViewController.m; sourceTree = "<group>"; };
+		C5AC4DBC2863843A003D0C6D /* HpsConnectDeviceViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = HpsConnectDeviceViewController.h; sourceTree = "<group>"; };
+		C5AC4DBD2863843A003D0C6D /* HpsConnectDeviceViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = HpsConnectDeviceViewController.m; sourceTree = "<group>"; };
+		C5AC4DBF286387E0003D0C6D /* HpsMainNavigationViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = HpsMainNavigationViewController.h; sourceTree = "<group>"; };
+		C5AC4DC0286387E0003D0C6D /* HpsMainNavigationViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = HpsMainNavigationViewController.m; sourceTree = "<group>"; };
 		D51EA908AC81E7B7EB89E8D5 /* LICENSE */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; name = LICENSE; path = ../LICENSE; sourceTree = "<group>"; };
 		DB30662A2188794A00F6E101 /* Hps_Hpa_Report_Test.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = Hps_Hpa_Report_Test.m; sourceTree = "<group>"; };
 		DB3DC11B2004F7EA0037521A /* Hps_Hpa_VRF_Test.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Hps_Hpa_VRF_Test.m; sourceTree = "<group>"; };
@@ -190,6 +199,12 @@
 				6003F59C195388D20070C39A /* HpsAppDelegate.h */,
 				6003F59D195388D20070C39A /* HpsAppDelegate.m */,
 				873B8AEA1B1F5CCA007FD442 /* Main.storyboard */,
+				C5AC4DB928638422003D0C6D /* HpsDetailsViewController.h */,
+				C5AC4DBA28638422003D0C6D /* HpsDetailsViewController.m */,
+				C5AC4DBC2863843A003D0C6D /* HpsConnectDeviceViewController.h */,
+				C5AC4DBD2863843A003D0C6D /* HpsConnectDeviceViewController.m */,
+				C5AC4DBF286387E0003D0C6D /* HpsMainNavigationViewController.h */,
+				C5AC4DC0286387E0003D0C6D /* HpsMainNavigationViewController.m */,
 				6003F5A5195388D20070C39A /* HpsViewController.h */,
 				6003F5A6195388D20070C39A /* HpsViewController.m */,
 				84CD39E71C45A73E006FED91 /* heartlandlogo.png */,
@@ -358,9 +373,10 @@
 				ORGANIZATIONNAME = "Shaunti Fondrisi";
 				TargetAttributes = {
 					6003F589195388D20070C39A = {
-						DevelopmentTeam = 264BX5RC4N;
+						DevelopmentTeam = 6S3F523KPF;
 					};
 					6003F5AD195388D20070C39A = {
+						DevelopmentTeam = 6S3F523KPF;
 						TestTargetID = 6003F589195388D20070C39A;
 					};
 				};
@@ -499,8 +515,11 @@
 			buildActionMask = 2147483647;
 			files = (
 				6003F59E195388D20070C39A /* HpsAppDelegate.m in Sources */,
+				C5AC4DC1286387E1003D0C6D /* HpsMainNavigationViewController.m in Sources */,
+				C5AC4DBB28638422003D0C6D /* HpsDetailsViewController.m in Sources */,
 				6003F5A7195388D20070C39A /* HpsViewController.m in Sources */,
 				6003F59A195388D20070C39A /* main.m in Sources */,
+				C5AC4DBE2863843A003D0C6D /* HpsConnectDeviceViewController.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -656,6 +675,7 @@
 				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = "";
 				CODE_SIGN_IDENTITY = "iPhone Developer";
 				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				DEVELOPMENT_TEAM = 6S3F523KPF;
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
 				GCC_PREFIX_HEADER = "Heartland-iOS-SDK/Heartland-iOS-SDK-Prefix.pch";
 				INFOPLIST_FILE = "Heartland-iOS-SDK/Heartland-iOS-SDK-Info.plist";
@@ -676,6 +696,7 @@
 				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = "";
 				CODE_SIGN_IDENTITY = "iPhone Developer";
 				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				DEVELOPMENT_TEAM = 6S3F523KPF;
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
 				GCC_PREFIX_HEADER = "Heartland-iOS-SDK/Heartland-iOS-SDK-Prefix.pch";
 				INFOPLIST_FILE = "Heartland-iOS-SDK/Heartland-iOS-SDK-Info.plist";
@@ -693,6 +714,7 @@
 			baseConfigurationReference = 61BF46B1C380625FF377FAA8 /* Pods-Heartland-iOS-SDK_Tests.debug.xcconfig */;
 			buildSettings = {
 				BUNDLE_LOADER = "$(TEST_HOST)";
+				DEVELOPMENT_TEAM = 6S3F523KPF;
 				ENABLE_BITCODE = NO;
 				FRAMEWORK_SEARCH_PATHS = (
 					"$(inherited)",
@@ -717,6 +739,7 @@
 			baseConfigurationReference = 253ABA11EC670E90EACA486A /* Pods-Heartland-iOS-SDK_Tests.release.xcconfig */;
 			buildSettings = {
 				BUNDLE_LOADER = "$(TEST_HOST)";
+				DEVELOPMENT_TEAM = 6S3F523KPF;
 				ENABLE_BITCODE = NO;
 				FRAMEWORK_SEARCH_PATHS = (
 					"$(inherited)",
@@ -787,6 +810,7 @@
 				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = "";
 				CODE_SIGN_IDENTITY = "iPhone Developer";
 				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				DEVELOPMENT_TEAM = 6S3F523KPF;
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
 				GCC_PREFIX_HEADER = "Heartland-iOS-SDK/Heartland-iOS-SDK-Prefix.pch";
 				INFOPLIST_FILE = "Heartland-iOS-SDK/Heartland-iOS-SDK-Info.plist";
@@ -804,6 +828,7 @@
 			baseConfigurationReference = 08D636DD28A9667ED2741E32 /* Pods-Heartland-iOS-SDK_Tests.pax_testing.xcconfig */;
 			buildSettings = {
 				BUNDLE_LOADER = "$(TEST_HOST)";
+				DEVELOPMENT_TEAM = 6S3F523KPF;
 				ENABLE_BITCODE = NO;
 				FRAMEWORK_SEARCH_PATHS = (
 					"$(SDKROOT)/Developer/Library/Frameworks",
